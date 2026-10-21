@@ -1,0 +1,243 @@
+.set-permission-container {
+  padding: 1.5rem 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.header h2 {
+  color: #f26623;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.header-subtitle {
+  color: #999;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.add-user-section {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.add-user-section h3 {
+  color: #f26623;
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.form-perm-group {
+  margin-bottom: 1rem;
+}
+
+.form-perm-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.form-perm-control {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.form-perm-control:focus {
+  outline: none;
+  border-color: #f26623;
+}
+
+.form-perm-row-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.btn-add-user {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #f26623;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn-add-user:hover {
+  background-color: #e55a1f;
+}
+
+.users-section {
+  margin-top: 2rem;
+}
+
+.users-section h3 {
+  color: #f26623;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.no-users {
+  text-align: center;
+  color: #999;
+  padding: 2rem;
+}
+
+.users-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.user-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #f26623;
+}
+
+.user-info h4 {
+  color: #333;
+  margin: 0 0 0rem;
+  font-size: 1.1rem;
+}
+
+.user-info p {
+  margin: -0.25rem 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.user-meta {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.role-badge,
+.status-badge {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.role-badge {
+  background-color: #e3f2fd;
+  color: #1565c0;
+}
+
+.role-employee {
+  background-color: #f5f5f5;
+  color: #666;
+}
+
+.role-admin {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.role-superadmin {
+  background-color: #ffe0b2;
+  color: #e65100;
+}
+
+.status-badge {
+  background-color: #f5f5f5;
+  color: #666;
+}
+
+.status-active {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-inactive {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.user-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  flex: 1;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.3s;
+}
+
+.btn-edit {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn-edit:hover {
+  background-color: #1976d2;
+}
+
+.btn-delete {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.btn-delete:hover {
+  background-color: #ff5252;
+}
+
+.btn-cancel {
+  background-color: #e0e0e0;
+  color: #666;
+}
+
+.btn-cancel:hover {
+  background-color: #d0d0d0;
+}
+
+.btn-save {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-save:hover {
+  background-color: #45a049;
+}
+
+.edit-form-perm {
+  margin-bottom: 1rem;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.edit-actions .btn {
+  margin: 0;
+}

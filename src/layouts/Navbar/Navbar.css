@@ -1,0 +1,41 @@
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #c5c5c5;
+  padding: 0.5rem 1rem;
+  border-top: 1px solid #b0b0b0;
+  flex-shrink: 0;
+  height: 60px;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  color: #f26623;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 50%;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn:hover {
+  background-color: rgba(242, 102, 35, 0.1);
+  transform: scale(1.1);
+}
+
+.nav-btn:active {
+  background-color: rgba(242, 102, 35, 0.2);
+}

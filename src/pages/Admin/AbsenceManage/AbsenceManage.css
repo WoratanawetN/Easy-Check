@@ -1,0 +1,191 @@
+/* AbsenceManage.css */
+.absence-manage-container {
+  padding: 1.5rem 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.header h2 {
+  color: #f26623;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Tabs */
+.filter-tabs {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tab {
+  padding: 0.5rem 1rem;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #6b7280;
+}
+
+.tab.active {
+  background: #f26623;
+  color: white;
+  border-color: #f26623;
+}
+
+/* Card */
+.request-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-left: 4px solid #ccc;
+}
+
+.request-card.status-pending {
+  border-left-color: #f59e0b;
+}
+.request-card.status-approved {
+  border-left-color: #22c55e;
+}
+.request-card.status-rejected {
+  border-left-color: #ef4444;
+}
+
+.req-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.req-id {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  background: #f3f4f6;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.status-badge {
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.status-badge.pending {
+  background: #fef3c7;
+  color: #d97706;
+}
+.status-badge.approved {
+  background: #dcfce7;
+  color: #16a34a;
+}
+.status-badge.rejected {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.req-body {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.req-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.req-reason {
+  background: #f9fafb;
+  padding: 0.75rem;
+  border-radius: 8px;
+  margin: 0.75rem 0;
+  font-size: 0.85rem;
+  color: #374151;
+}
+
+.req-files {
+  font-size: 0.8rem;
+  color: #3b82f6;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.req-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 1rem;
+}
+
+.timestamp {
+  color: #9ca3af;
+  font-size: 0.75rem;
+}
+
+.actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.btn-approve,
+.btn-reject {
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-approve {
+  background: #22c55e;
+}
+.btn-approve:hover {
+  background: #16a34a;
+}
+
+.btn-reject {
+  background: #ef4444;
+}
+.btn-reject:hover {
+  background: #dc2626;
+}
+
+.approver-info {
+  font-size: 0.75rem;
+  color: #6b7280;
+  font-style: italic;
+}
+
+.empty-state {
+  text-align: center;
+  color: #9ca3af;
+  padding: 2rem;
+  background: #f9fafb;
+  border-radius: 12px;
+  border: 2px dashed #e5e7eb;
+}

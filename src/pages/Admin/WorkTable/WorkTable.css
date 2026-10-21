@@ -1,0 +1,131 @@
+.work-table-container {
+  padding: 1.5rem 1rem;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.work-table-header h2 {
+  color: #f26623;
+  font-weight: 600;
+}
+
+.add-shift-form {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.add-shift-form h3 {
+  color: #f26623;
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.form-control {
+  flex: 1;
+  padding: 0.75rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #f26623;
+}
+
+.time-separator {
+  color: #999;
+  font-size: 0.9rem;
+  padding: 0 0.5rem;
+}
+
+.btn-add {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #f26623;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-add:hover {
+  background-color: #e55a1f;
+}
+
+.shifts-list {
+  margin-top: 2rem;
+}
+
+.shifts-list h3 {
+  color: #f26623;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.shift-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.shift-info {
+  flex: 1;
+}
+
+.shift-info h4 {
+  color: #333;
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.shift-time,
+.shift-employees {
+  margin: 0.3rem 0;
+  color: #666;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.shift-time i,
+.shift-employees i {
+  color: #f26623;
+}
+
+.btn-delete {
+  padding: 0.5rem 1rem;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: background-color 0.3s;
+}
+
+.btn-delete:hover {
+  background-color: #ff5252;
+}
